@@ -236,6 +236,6 @@ extension ConnectionService: CBPeripheralDelegate {
             return
         }
         disconnectedPeripheral.disconnectionHandler?()
-        centralManager.connect(nativePeripheral, options: connectionOptions)
+        // centralManager.connect(nativePeripheral, options: connectionOptions)
     }
 }
